@@ -81,7 +81,6 @@ En Windows:
 
 ```bash
 pip install pytest
-pip install selenium
 ```
 3. Ejecutar las pruebas desde la terminal:
 
