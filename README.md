@@ -53,6 +53,7 @@ Se implementaron validaciones de respuestas HTTP 201 (creación exitosa) y 400 (
 qa-project-Urban-Grocers-app-es/
 │
 ├── documentacion/
+│   ├── README.md
 │   └── casos-de-prueba-api.xlsx
 │
 ├── .gitignore
@@ -65,18 +66,30 @@ qa-project-Urban-Grocers-app-es/
 
 ## Ejecución de las pruebas automatizadas
 
-**1.** Instalar las dependencias necesarias:
+1. Crear y activar un entorno virtual:
 
 ```bash
-pip install pytest requests
+python -m venv .venv
 ```
 
-**2.** Ejecutar las pruebas desde la terminal:
+En Windows:
+```bash
+.venv\Scripts\activate
+```
+
+2. Instalar las dependencias necesarias:
+
+```bash
+pip install pytest
+pip install selenium
+```
+3. Ejecutar las pruebas desde la terminal:
 
 ```bash
 pytest
 ```
 
-## Objetivo del proyecto
+
+Objetivo del proyecto
 
 Aplicar técnicas de pruebas de API manuales y automatizadas para validar el comportamiento de los servicios, identificar defectos y documentar los resultados obtenidos.
