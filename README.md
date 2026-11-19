@@ -81,6 +81,7 @@ En Windows:
 
 ```bash
 pip install pytest
+pip install request
 ```
 3. Ejecutar las pruebas desde la terminal:
 
