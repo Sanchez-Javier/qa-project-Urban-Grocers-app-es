@@ -19,6 +19,7 @@ Se diseñaron y ejecutaron 104 casos de prueba basados en los requisitos y la do
 - Registro de incidencias y seguimiento mediante JIRA.
 
 El archivo Excel con los casos de prueba se encuentra en la carpeta `documentacion/`.
+
 [Consultar casos de prueba de API (Excel)](documentacion/casos-de-prueba-api.xlsx)
 
 ## Automatización de pruebas
